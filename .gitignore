@@ -1,0 +1,44 @@
+# --- Node / Frontend / Extension ---
+node_modules/
+dist/
+dist-extension/
+.eslintcache
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Python / API ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ipynb_checkpoints
+
+# --- Database / Local state ---
+*.db
+*.sqlite3
+
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
