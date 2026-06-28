@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, UploadFile, File, Form
 from src.app.core.security import get_current_user
-from src.app.services.gemini import get_gemini_client
+from src.app.ai.integrations.gemini import get_gemini_client
 
 router = APIRouter()
 
